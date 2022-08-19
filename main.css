@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link-li {
+    @apply hover:text-orange-300 hover:font-medium text-gray-50 cursor-pointer text-sm after:content-[''] after:duration-300 after:block after:w-0 after:hover:w-full after:h-0.5 after:bg-orange-400 after:m-auto;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

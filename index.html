@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Choice Roof</title>
+  </head>
+  <body>
+    <!-- Top Nav -->
+    <nav
+      class="hidden sm:flex justify-between md:justify-around bg-gray-700 text-gray-300 py-1 px-5"
+    >
+      <ul class="flex space-x-6 text-sm">
+        <li class="hover:text-orange-300 cursor-pointer">
+          <i class="fa fa-facebook"></i>
+        </li>
+        <li class="hover:text-orange-300 cursor-pointer">
+          <i class="fa fa-twitter"></i>
+        </li>
+        <li class="hover:text-orange-300 cursor-pointer">
+          <i class="fa fa-linkedin"></i>
+        </li>
+        <li class="hover:text-orange-300 cursor-pointer">
+          <i class="fa fa-instagram"></i>
+        </li>
+        <li class="hover:text-orange-300 cursor-pointer">
+          <i class="fa fa-youtube"></i>
+        </li>
+      </ul>
+      <ul class="flex space-x-6 text-xs">
+        <li class="hover:text-orange-300 cursor-pointer">+92 320 00 99 897</li>
+        <li class="hover:text-orange-300 cursor-pointer">
+          support@choiceroof.com
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar  -->
+    <nav
+      id="home"
+      class="flex justify-between md:justify-around bg-cyan-700 py-4 items-center px-5"
+    >
+      <ul>
+        <li class="text-[18px] font-mono text-white">Choice Roof</li>
+      </ul>
+      <ul class="hidden sm:flex space-x-4 md:space-x-8">
+        <a href="#home"><li class="link-li">Home</li></a>
+        <a href="#about-us"><li class="link-li">About</li></a>
+        <a href="#services"><li class="link-li">Services</li></a>
+        <a href="#projects"><li class="link-li">Projects</li></a>
+        <a href="#contact-us"><li class="link-li">Contact</li></a>
+      </ul>
+      <ul class="block sm:hidden">
+        <li>
+          <i class="fa fa-bars text-white text-lg"></i>
+        </li>
+        <li class="hidden"><i class="fa fa-times text-white text-lg"></i></li>
+      </ul>
+    </nav>
+    <!-- Main  -->
+    <main>
+      <!-- Hero Header Section -->
+      <section
+        class="relative bg-[url('https://images.pexels.com/photos/4906398/pexels-photo-4906398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] h-[90vh] w-screen bg-cover bg-center bg-gray-500 bg-blend-overlay"
+      >
+        <div
+          class="w-full max-w-2xl px-5 m-auto text-center h-full flex flex-col justify-center"
+        >
+          <div class="bg-cyan-800 bg-opacity-80 p-4">
+            <div class="text-white text-sm sm:text-lg font-light">
+              DON'T LOOK FURTHER, HERE IS THE KEY
+            </div>
+            <div
+              class="text-white text-2xl sm:text-4xl md:text-5xl my-2 font-bold"
+            >
+              We're Home Builder
+            </div>
+            <div class="text-white mt-2 text-justify sm:text-center">
+              Choice Roof dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim. sed do eiusmod tempor incididunt.
+            </div>
+            <div>
+              <button
+                class="mt-4 bg-amber-400 py-2 px-6 hover:text-white rounded duration-300 hover:bg-transparent hover:outline hover:outline-amber-400"
+              >
+                GET STARTED
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section
+        id="about-us"
+        class="pt-6 mt-12 sm:pt-6 sm:mt-22 max-w-6xl mx-auto px-5"
+      >
+        <h2
+          class="text-3xl font-semibold text-center after:content-[''] after:block after:w-28 after:h-1 after:mt-1 after:bg-orange-400 after:m-auto"
+        >
+          Who We Are
+        </h2>
+        <div class="flex flex-col-reverse md:flex-row gap-6 mt-10">
+          <div class="w-full md:w-1/2">
+            <p class="text-justify text-gray-700">
+              With over 50 years of combined experience. Lorem ipsum dolor sit
+              amet consectetur is a adipisicing elit. Dolore maxime, odio
+              voluptas repellendus assumenda distinctio doloremque molestias
+              iste fugit similique. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit.
+            </p>
+            <br />
+            <p class="text-justify text-gray-700">
+              Dolore maxime, odio voluptas repellendus assumenda distinctio
+              doloremque molestias iste fugit similique. Lorem ipsum dolor sit
+              amet consectetur is a adipisicing elit. Dolore maxime, odio
+              voluptas repellendus assumenda distinctio doloremque molestias
+              iste fugit similique. Lorem ipsum dolor sit amet consectetur is a
+              adipisicing elit. Dolore maxime, odio voluptas repellendus
+              assumenda distinctio doloremque similique.
+            </p>
+            <button
+              class="mt-4 bg-amber-400 py-2 px-6 rounded duration-300 hover:bg-transparent hover:outline hover:outline-amber-400"
+            >
+              Contact Us
+            </button>
+          </div>
+          <div class="w-full md:w-1/2">
+            <img
+              src="https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="about-us"
+              class="h-80 w-full"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Progress Section -->
+      <section
+        class="mt-20 sm:mt-28 px-5 bg-cyan-700 py-10 sm:py-20 flex flex-col items-center justify-center"
+      >
+        <div
+          class="max-w-6xl w-full mx-auto space-y-8 sm:space-y-0 flex flex-col sm:flex-row justify-around"
+        >
+          <div class="flex flex-col items-center">
+            <div
+              class="border shadow-md shadow-amber-500/50 border-amber-500 rounded-full w-32 h-32 flex items-center justify-center"
+            >
+              <div
+                class="bg-amber-400 rounded-full text-white text-xl font-bold w-20 h-20 flex items-center justify-center"
+              >
+                2K
+              </div>
+            </div>
+            <div class="text-white font-normal text-lg mt-2 sm:mt-4">
+              Projects Completed
+            </div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="border shadow-md shadow-amber-500/50 border-amber-500 rounded-full w-32 h-32 flex items-center justify-center"
+            >
+              <div
+                class="bg-amber-400 rounded-full text-white text-xl font-bold w-20 h-20 flex items-center justify-center"
+              >
+                120
+              </div>
+            </div>
+            <div class="text-white font-normal text-lg mt-2 sm:mt-4">
+              In Progress
+            </div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="border shadow-md shadow-amber-500/50 border-amber-500 rounded-full w-32 h-32 flex items-center justify-center"
+            >
+              <div
+                class="bg-amber-400 rounded-full text-white text-xl font-bold w-20 h-20 flex items-center justify-center"
+              >
+                895
+              </div>
+            </div>
+            <div class="text-white font-normal text-lg mt-2 sm:mt-4">
+              Happy Clients
+            </div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="border shadow-md shadow-amber-500/50 border-amber-500 rounded-full w-32 h-32 flex items-center justify-center"
+            >
+              <div
+                class="bg-amber-400 rounded-full text-white text-xl font-bold w-20 h-20 flex items-center justify-center"
+              >
+                3K
+              </div>
+            </div>
+            <div class="text-white font-normal text-lg mt-2 sm:mt-4">
+              Total Employees
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section
+        id="services"
+        class="pt-6 mt-12 sm:pt-6 sm:mt-22 max-w-6xl mx-auto px-5"
+      >
+        <h2
+          class="text-3xl font-semibold text-center after:content-[''] after:block after:w-28 after:h-1 after:mt-1 after:bg-orange-400 after:m-auto"
+        >
+          Our Services
+        </h2>
+        <p class="my-10 text-justify text-gray-700">
+          Lorem ipsum dolor sit amet consectetur is a adipisicing elit. Dolore
+          maxime, odio voluptas repellendus assumenda distinctio doloremque
+          molestias iste fugit similique. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Dolore maxime, odio voluptas repellendus assumenda
+          distinctio doloremque molestias iste fugit similique. Lorem ipsum
+          dolor sit amet consectetur is a adipisicing elit. Dolore maxime, odio
+          voluptas repellendus assumenda distinctio doloremque molestias iste
+          fugit similique.
+        </p>
+        <div class="flex flex-col sm:flex-row">
+          <div class="p-2">
+            <div class="text-center">
+              <i
+                class="fa fa-magic border-2 border-orange-400 rounded-full py-8 shadow-md shadow-orange-500/30 px-[34px] text-gray-600"
+                style="font-size: 48px"
+              ></i>
+            </div>
+            <h3 class="my-4 text-xl font-medium text-center text-gray-800">
+              Maintenance Service
+            </h3>
+            <p class="text-center text-gray-700">
+              Lorem ipsum dolor sit amet consectetur is a adipisicing elit.
+              Voluptatem id, reprehenderit beatae autem veritatis possimus ipsa
+              ad nisi similique sit!
+            </p>
+          </div>
+          <div class="p-2">
+            <div class="text-center">
+              <i
+                class="fa fa-home border-2 border-orange-400 rounded-full py-8 shadow-md shadow-orange-500/30 px-[34px] text-gray-600"
+                style="font-size: 48px"
+              ></i>
+            </div>
+            <h3 class="my-4 text-xl font-medium text-center text-gray-800">
+              Home Building & Remodeling
+            </h3>
+            <p class="text-center text-gray-700">
+              Lorem ipsum dolor sit amet consectetur is a adipisicing elit.
+              Voluptatem id, reprehenderit beatae autem veritatis possimus ipsa
+              ad nisi similique sit! df
+            </p>
+          </div>
+          <div class="p-2">
+            <div class="text-center">
+              <i
+                class="fa fa-building border-2 border-orange-400 rounded-full py-8 shadow-md shadow-orange-500/30 px-9 text-gray-600"
+                style="font-size: 48px"
+              ></i>
+            </div>
+            <h3 class="my-4 text-xl font-medium text-center text-gray-800">
+              Commercial Service
+            </h3>
+            <p class="text-center text-gray-700">
+              Lorem ipsum dolor sit amet consectetur is a adipisicing elit.
+              Voluptatem id, reprehenderit beatae autem veritatis possimus ipsa
+              ad nisi similique sit!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section
+        id="projects"
+        class="pt-6 mt-12 sm:pt-6 sm:mt-28 max-w-6xl mx-auto px-5"
+      >
+        <h2
+          class="text-3xl font-semibold text-center after:content-[''] after:block after:w-28 after:h-1 after:mt-1 after:bg-orange-400 after:m-auto"
+        >
+          Latest Finished Projects
+        </h2>
+        <p class="my-10 text-justify text-gray-700">
+          We're proud of our award-winning design and construction work. Below
+          you'll find a few of our favorite projects from around the Portland
+          area. Take a look and start imagining your custom dream home!
+        </p>
+        <div class="flex flex-col sm:flex-row gap-6 my-6">
+          <div
+            class="w-full sm:w-[33.33%] cursor-pointer border p-0.5 hover:opacity-80"
+          >
+            <img
+              src="https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="project1"
+              class="w-full h-full object-cover scale-100 duration-300 hover:scale-105"
+            />
+          </div>
+          <div
+            class="w-full sm:w-[33.33%] cursor-pointer border p-0.5 hover:opacity-80"
+          >
+            <img
+              src="https://images.pexels.com/photos/7031410/pexels-photo-7031410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="project1"
+              class="w-full h-full object-cover scale-100 duration-300 hover:scale-105"
+            />
+          </div>
+          <div
+            class="w-full sm:w-[33.33%] cursor-pointer border p-0.5 hover:opacity-80"
+          >
+            <img
+              src="https://images.pexels.com/photos/1571470/pexels-photo-1571470.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="project1"
+              class="w-full h-full object-cover scale-100 duration-300 hover:scale-105"
+            />
+          </div>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-6 my-6">
+          <div
+            class="w-full sm:w-[33.33%] cursor-pointer border p-0.5 hover:opacity-80"
+          >
+            <img
+              src="https://images.pexels.com/photos/94865/pexels-photo-94865.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="project1"
+              class="w-full h-full object-cover scale-100 duration-300 hover:scale-105"
+            />
+          </div>
+          <div
+            class="w-full sm:w-[33.33%] cursor-pointer border p-0.5 hover:opacity-80"
+          >
+            <img
+              src="https://images.pexels.com/photos/7167075/pexels-photo-7167075.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="project1"
+              class="w-full h-full object-cover scale-100 duration-300 hover:scale-105"
+            />
+          </div>
+          <div
+            class="w-full sm:w-[33.33%] cursor-pointer border p-0.5 hover:opacity-80"
+          >
+            <img
+              src="https://images.pexels.com/photos/226407/pexels-photo-226407.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="project1"
+              class="w-full h-full object-cover scale-100 duration-300 hover:scale-105"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Us Section -->
+      <section id="contact-us" class="py-10 my-16 sm:my-24 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-5 flex flex-col md:flex-row gap-10">
+          <div class="2-full md:w-1/2 lg:w-2/5">
+            <h2 class="text-3xl font-semibold">
+              We've made a life that will change you
+            </h2>
+            <h6 class="text-gray-800 my-2 font-light">
+              We are here to listen from you deliver exellence
+            </h6>
+            <div class="mt-5">
+              <h4
+                class="text-xl font-medium after:content-[''] after:block after:w-12 after:h-0.5 after:mt-1 after:bg-orange-400"
+              >
+                Direct Contact
+              </h4>
+              <div>
+                <h5 class="text-gray-800 font-semibold my-2">Phone</h5>
+                <p class="text-gray-500">+ 92 320 00 99 897</p>
+              </div>
+              <div>
+                <h5 class="text-gray-800 font-semibold my-2">Address</h5>
+                <p class="text-gray-500">
+                  Choice Roof 4797 Mercury Street Pakistan CA 92111
+                </p>
+              </div>
+              <div>
+                <h5 class="text-gray-800 font-semibold my-2">Hours</h5>
+                <p class="text-gray-500">
+                  Mon U+002d Fri: 8:00am U+002d 4:30pm
+                </p>
+                <p class="text-gray-500">
+                  Saturday: Closed U+002d Appointments Only
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="2-full md:w-1/2 lg:w-3/5">
+            <form id="contactUsForm">
+              <div class="flex flex-col mb-4">
+                <label for="name" class="pl-1 pb-1 text-sm text-gray-600"
+                  >Full name <span class="text-sm text-red-500">*</span></label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Enter value"
+                  required
+                  class="p-2 px-4 rounded-md text-sm"
+                />
+              </div>
+              <div class="flex flex-col mb-4">
+                <label for="email" class="pl-1 pb-1 text-sm text-gray-600"
+                  >E-mail <span class="text-sm text-red-500">*</span></label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter value"
+                  class="p-2 px-4 rounded-md text-sm"
+                  required
+                />
+              </div>
+              <div class="flex flex-col mb-4">
+                <label for="number" class="pl-1 pb-1 text-sm text-gray-600"
+                  >Phone</label
+                >
+                <input
+                  type="tel"
+                  id="number"
+                  placeholder="Enter value"
+                  class="p-2 px-4 rounded-md text-sm"
+                />
+              </div>
+              <div class="flex flex-col mb-4">
+                <label for="description" class="pl-1 pb-1 text-sm text-gray-600"
+                  >Message <span class="text-sm text-red-500">*</span></label
+                >
+                <textarea
+                  type="textarea"
+                  id="description"
+                  placeholder="How we can help you ?"
+                  rows="6"
+                  class="p-2 px-4 rounded-md text-sm"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="mt-10 sm:mt-8 bg-amber-400 py-2 font-medium px-6 block w-52 mx-auto rounded duration-300 hover:bg-transparent hover:outline hover:outline-amber-400"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-cyan-700 mt-6">
+      <div
+        class="flex flex-col sm:flex-row gap-10 max-w-6xl mx-auto px-5 py-16"
+      >
+        <div class="w-full sm:w-[40%]">
+          <h4
+            class="text-xl font-medium text-gray-50 after:content-[''] after:block after:w-9 after:h-0.5 after:mt-1 after:bg-orange-400"
+          >
+            Company
+          </h4>
+          <p class="text-gray-300 text-sm text-justify mt-7">
+            With over 50 years of combined experience. Lorem ipsum dolor sit
+            amet consectetur is a adipisicing elit. Dolore maxime, odio voluptas
+            repellendus assumenda distinctio doloremque molestias iste fugit
+            similique. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <a
+              href="#"
+              class="underline hover:text-amber-400 cursor-pointer duration-100"
+              >Contact Us
+            </a>
+          </p>
+        </div>
+        <div class="sm:w-[40%]">
+          <h4
+            class="text-xl font-medium text-gray-50 after:content-[''] after:block after:w-9 after:h-0.5 after:mt-1 after:bg-orange-400"
+          >
+            Newsletter
+          </h4>
+          <p class="text-gray-300 text-sm mt-7 mb-5">
+            Stay update with our latest
+          </p>
+          <form id="newLetterForm">
+            <div class="flex">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Your Email"
+                class="text-sm w-[88%] py-2 px-2 focus:border-0 focus:outline-0"
+                required
+              />
+              <button
+                type="submit"
+                class="bg-amber-400 w-[12%] hover:bg-amber-300 duration-200 active:bg-amber-500"
+              >
+                <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="sm:w-[20%]">
+          <h4
+            class="text-xl font-medium text-gray-50 after:content-[''] after:block after:w-9 after:h-0.5 after:mt-1 after:bg-orange-400"
+          >
+            Follow Us
+          </h4>
+          <p class="text-gray-300 text-sm mt-7 mb-4">Let us be social</p>
+          <ul class="flex space-x-4 text-md">
+            <li class="hover:text-orange-300 cursor-pointer">
+              <i class="fa fa-facebook"></i>
+            </li>
+            <li class="hover:text-orange-300 cursor-pointer">
+              <i class="fa fa-twitter"></i>
+            </li>
+            <li class="hover:text-orange-300 cursor-pointer">
+              <i class="fa fa-linkedin"></i>
+            </li>
+            <li class="hover:text-orange-300 cursor-pointer">
+              <i class="fa fa-instagram"></i>
+            </li>
+            <li class="hover:text-orange-300 cursor-pointer">
+              <i class="fa fa-youtube"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center py-2 text-gray-300 text-xs px-5">
+        COPYRIGHT &copy; 2022
+        <a
+          href="#"
+          class="hover:text-amber-400 hover:underline cursor-pointer duration-100"
+        >
+          Choice Roof
+        </a>
+        Design & Remodeling. All Rights Reserved.
+      </div>
+    </footer>
+  </body>
+
+  <!-- TODO - Movied scripts to the separate file  -->
+  <script type="text/javascript">
+    document
+      .getElementById("newLetterForm")
+      .addEventListener("submit", function (e) {
+        e.preventDefault();
+        const formData = new FormData(e.target);
+        const values = Object.fromEntries(formData);
+        console.log("values", values);
+      });
+
+    document
+      .getElementById("contactUsForm")
+      .addEventListener("submit", function (e) {
+        e.preventDefault();
+        const formData = new FormData(e.target);
+        const values = Object.fromEntries(formData);
+        console.log("values", values);
+      });
+  </script>
+</html>
