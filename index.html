@@ -42,14 +42,15 @@
     </nav>
     <!-- Navbar  -->
     <nav
-      id="home"
       class="flex justify-between md:justify-around bg-cyan-700 py-4 items-center px-5"
     >
       <ul>
         <li class="text-[18px] font-mono text-white">Choice Roof</li>
       </ul>
       <ul class="hidden sm:flex space-x-4 md:space-x-8">
-        <a href="#home"><li class="link-li">Home</li></a>
+        <a href="#home" onclick="goToTopFunction()"
+          ><li class="link-li">Home</li></a
+        >
         <a href="#about-us"><li class="link-li">About</li></a>
         <a href="#services"><li class="link-li">Services</li></a>
         <a href="#projects"><li class="link-li">Projects</li></a>
@@ -66,7 +67,7 @@
     <main>
       <!-- Hero Header Section -->
       <section
-        class="relative bg-[url('https://images.pexels.com/photos/4906398/pexels-photo-4906398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] h-[90vh] w-screen bg-cover bg-center bg-gray-500 bg-blend-overlay"
+        class="relative bg-[url('https://images.pexels.com/photos/4906398/pexels-photo-4906398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] h-[90vh] w-full bg-cover bg-center bg-gray-500 bg-blend-overlay"
       >
         <div
           class="w-full max-w-2xl px-5 m-auto text-center h-full flex flex-col justify-center"
@@ -453,6 +454,7 @@
         </div>
       </section>
     </main>
+
     <footer class="bg-cyan-700 mt-6">
       <div
         class="flex flex-col sm:flex-row gap-10 max-w-6xl mx-auto px-5 py-16"
@@ -540,6 +542,13 @@
         Design & Remodeling. All Rights Reserved.
       </div>
     </footer>
+    <div
+      id="goToTop"
+      class="fixed cursor-pointer right-4 bottom-4 w-12 h-12 rounded-full bg-amber-400 hidden flex-col items-center justify-center text-gray-700 duration-300 hover:text-gray-800 hover:bg-amber-300"
+      onclick="goToTopFunction()"
+    >
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </body>
 
   <!-- TODO - Movied scripts to the separate file  -->
@@ -561,5 +570,28 @@
         const values = Object.fromEntries(formData);
         console.log("values", values);
       });
+  </script>
+  <script>
+    goToTop = document.getElementById("goToTop");
+
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 200 ||
+        document.documentElement.scrollTop > 200
+      ) {
+        goToTop.style.display = "flex";
+      } else {
+        goToTop.style.display = "none";
+      }
+    }
+
+    function goToTopFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
   </script>
 </html>
